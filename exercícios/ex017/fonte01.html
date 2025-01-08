@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        body{
+            font-family: 'work sans'Arial, Helvetica, sans-serif;
+            /* medidas absolutas
+            cm, mm, in(polegada), px, pt(ponto), pc("paica")
+            
+            medidas relativas
+            - em > relativa ao tamanho atual da fonte (letra maiúscula)
+            - ex > relativo a altura x da fonte (letra minúscula)
+            - rem
+            - vw > tamanho da tela
+            - vh
+            Recomendado: em e px
+            */
+            font-size: 1em;
+        }
+        
+        h1{
+           /* font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            /* o código acima pode ser substituído por uma linha de código
+            'shorthand font':
+            - font-style > font-weight > font-size > font-family*/
+            font: italic bolder 3em 'work sans', sans-serif
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero neque tempore ut illum corrupti modi hic voluptate, rerum atque aspernatur ea ab accusamus rem ad enim, recusandae similique sequi vitae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio commodi excepturi quo dolores. Eaque velit accusantium quos autem magni voluptatem est eius nostrum, quia, ducimus dignissimos eos. Ullam, blanditiis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus error harum tempore at quae iusto, nesciunt atque labore. Minima sed, ad dicta optio numquam dignissimos dolor quae incidunt deserunt?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad natus exercitationem iusto provident quibusdam cumque esse, harum odio minus at quam eum error ullam consectetur? Obcaecati corporis voluptatem delectus quidem.</p>
+</body>
+</html>
